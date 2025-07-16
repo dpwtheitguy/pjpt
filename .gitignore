@@ -1,0 +1,97 @@
+# ===========================
+# General Windows Stuff
+# ===========================
+*.exe
+*.msi
+*.iso
+*.dll
+*.bat
+*.ps1.xml
+*.log
+*.tmp
+*.bak
+*.swp
+Thumbs.db
+ehthumbs.db
+.DS_Store
+desktop.ini
+
+# ===========================
+# Documents & Reports
+# ===========================
+*.pdf
+
+# ===========================
+# Vagrant / VirtualBox / VMware
+# ===========================
+.vagrant/
+*.box
+*.ova
+*.ovf
+*.vmx
+*.vmdk
+*.vmsd
+*.vmxf
+*.nvram
+*.log
+*.lck
+
+# VMware snapshots (optional: keep if you want Git to track config only)
+*.vmss
+*.vmsn
+
+# ===========================
+# HashiCorp Terraform (if used later)
+# ===========================
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# ===========================
+# Python junk (if you do scripting)
+# ===========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# ===========================
+# Node / NPM junk (just in case)
+# ===========================
+node_modules/
+
+# ===========================
+# Backup / Metadata / IDE stuff
+# ===========================
+*.bak
+*.orig
+*.tmp
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.idea/
+
+# ===========================
+# Git-specific
+# ===========================
+*.rej
+*.patch
+*.diff
+*.merge
+*.orig
+
+# ===========================
+# Optional: Secrets & Configs
+# ===========================
+*.pem
+*.key
+*.crt
+*.pfx
+*.env
+*.credentials
+secrets.yml
+config.json
